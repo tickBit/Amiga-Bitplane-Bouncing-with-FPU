@@ -186,7 +186,7 @@ _start
         bsr     Show
 
         fmove.x  $00,fp7                ; PI
-        fmove.x  #0.005,fp1             ; Approximation of one degree in radians
+        fmove.x  #0.00873,fp1           ; Approximation of PI / 2
                                         ; I don't have much documentation of 68040's FPU;
                                         ; I don't know why the following:
                                         ; fmove.x $00,fp1
