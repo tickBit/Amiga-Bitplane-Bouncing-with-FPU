@@ -317,7 +317,7 @@ Scroll:
         move.w  #0002,$dff066  ; BLTDMOD (dest modulo)
 
         
-        move.w  #0000,$dff0042 ; BLTCON1
+        move.w  #0000,$dff042 ; BLTCON1
         clr.l   d0
         clr.l   d2
         move.w  #$09f0,d0
